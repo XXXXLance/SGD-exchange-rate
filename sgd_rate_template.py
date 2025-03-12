@@ -18,8 +18,8 @@ def check_internet_connection():
 
 
 def send_email(rate):
-    sender_email = "your_mail@gmail.com"
-    receiver_email = "your_mail@gmail.com"
+    sender_email = "gxtlhwj@gmail.com"
+    receiver_email = "gxtlhwj@gmail.com"
 
     message = MIMEMultipart()
     message["From"] = sender_email
@@ -75,7 +75,7 @@ def main():
             current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
             # 判断汇率是否低于5.4
-            if sgd_rate < 540:
+            if sgd_rate < 550:
                 log("新加坡元汇率低于5.4,发送邮件提醒！")
                 send_email(sgd_rate)
             

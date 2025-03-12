@@ -1,0 +1,2 @@
+新加坡元汇率低于5.4,发送邮件提醒！ 
+出现错误: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-224109f64d3sm106040035ad.100 - gsmtp') 
